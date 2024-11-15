@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on Runqiu Ye</title>
+    <link>https://runqiuye.github.io/about/</link>
+    <description>Recent content in About on Runqiu Ye</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Nov 2024 00:59:07 -0500</lastBuildDate>
+    <atom:link href="https://runqiuye.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>https://runqiuye.github.io/about/about/</link>
+      <pubDate>Fri, 15 Nov 2024 00:59:07 -0500</pubDate>
+      <guid>https://runqiuye.github.io/about/about/</guid>
+      <description>&lt;p&gt;I am an undergraduate student in Carnegie Mellon University. I am&#xA;interested in Mathematics, Computer Science, and Physics. Specifically,&#xA;I am passionate about analysis, machine learning, and computer systems.&#xA;I also like doing sports, cooking, and listening to classical music.&lt;/p&gt;&#xA;&lt;p&gt;On this website, I will share stuff I found interesting relevant to Mathematics,&#xA;Computer Science, and Physics, mostly containing my notes and projects.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
