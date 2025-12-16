@@ -39,7 +39,7 @@ under the blog section with the thoughts tag.
 In summer 2024, I joined Professor Katelyn Breivik's lab to do research in the
 field of computational astrophysics. My research topic is on wide post-mass
 transfer binary star systems. In summer 2025, I interned at Amazon Web Services 
-(AWS) as a software developer intern in the machine learning team.
+(AWS) as a software developement engineer intern.
 
 Besides my academic interests, I love going outdoors and hiking very much. I
 enjoy watching and playing sports, especially soccer, baseball, and basketball.
