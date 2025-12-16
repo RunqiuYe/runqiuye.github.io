@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-super-egg-drop",
+        },{id: "post-course-review-cmu-15451",
+        
+          title: "Course review --- CMU 15451",
+        
+        description: "Course review and reflection on CMU 15451, algorithm design and analysis",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/15451-review/";
+          
+        },
+      },{id: "post-super-egg-drop",
         
           title: "Super Egg Drop",
         
@@ -104,6 +115,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-add-course-review-for-cmu-15210-10701-started-studying-folland-real-analysis",
           title: 'Add course review for CMU 15210, 10701. Started studying Folland real analysis.',
+          description: "",
+          section: "News",},{id: "news-add-course-review-for-cmu-15451-finish-fall-2025-semester",
+          title: 'Add course review for CMU 15451. Finish Fall 2025 semester!',
           description: "",
           section: "News",},{
       id: 'light-theme',
