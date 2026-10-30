@@ -30,7 +30,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-course-review-cmu-15451",
+        },{id: "post-quantum-computation-2-grover-39-s-algorithm",
+        
+          title: "Quantum Computation 2: Grover&#39;s Algorithm",
+        
+        description: "Grover&#39;s algorithm and the unstructured search problem.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/quantum-2/";
+          
+        },
+      },{id: "post-quantum-computation-1-quantum-circuits",
+        
+          title: "Quantum Computation 1: Quantum Circuits",
+        
+        description: "Quantum computation model and the complexity class BQP.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/quantum-1/";
+          
+        },
+      },{id: "post-course-review-cmu-15451",
         
           title: "Course review --- CMU 15451",
         
