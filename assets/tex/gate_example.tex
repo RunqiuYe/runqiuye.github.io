@@ -1,0 +1,24 @@
+% From the repository root, build with:
+% latex -output-directory=/tmp assets/tex/gate_example.tex
+% dvisvgm --no-fonts --exact --bbox=min -o assets/img/gate_example.svg /tmp/gate_example.dvi
+\def\pgfsysdriver{pgfsys-dvisvgm.def}
+\documentclass[tikz,border=6pt]{standalone}
+
+\begin{document}
+\begin{tikzpicture}[
+  wire/.style={line width=0.5pt},
+  gate/.style={draw, fill=white, line width=0.5pt, inner sep=5pt},
+]
+  \fill[white] (-3.2, -2) rectangle (3.2, 1.35);
+
+  \foreach \y in {1, 0, -1} {
+    \draw[wire] (-3, \y) -- (3, \y);
+  }
+
+  \node[gate] at (-1.8, 1) {$G_1$};
+  \node[gate, minimum height=1.25cm] at (0, -0.5) {$G_2$};
+  \node[gate, minimum height=2.25cm] at (1.8, 0) {$G_3$};
+
+  \draw[blue, thin, ->] (-2, -1.7) -- node[above, midway] {time} (2, -1.7);
+\end{tikzpicture}
+\end{document}
