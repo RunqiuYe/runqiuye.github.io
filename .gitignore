@@ -11,3 +11,27 @@ assets/libs/
 node_modules/
 vendor
 .idea
+
+# LaTeX build artifacts
+assets/tex/*.aux
+assets/tex/*.bbl
+assets/tex/*.bcf
+assets/tex/*.blg
+assets/tex/*.dvi
+assets/tex/*.fdb_latexmk
+assets/tex/*.fls
+assets/tex/*.idx
+assets/tex/*.ilg
+assets/tex/*.ind
+assets/tex/*.lof
+assets/tex/*.log
+assets/tex/*.lot
+assets/tex/*.nav
+assets/tex/*.out
+assets/tex/*.pdf
+assets/tex/*.run.xml
+assets/tex/*.snm
+assets/tex/*.synctex.gz
+assets/tex/*.toc
+assets/tex/*.vrb
+assets/tex/*.xdv
